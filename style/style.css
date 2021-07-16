@@ -1,0 +1,243 @@
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,400&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      .navbar {
+        background: #131313;
+        padding: 1rem 4rem;
+        z-index: 1000;
+      }
+      .navbar .navbar-brand {
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+      .navbar .nav-item {
+        transition: 0.5s ease;
+      }
+
+      .navbar .nav-item .nav-link {
+        color: whitesmoke;
+        font-size: 1.1rem;
+        padding: 0 0.8rem;
+      }
+
+      #Navbar > ul > li:nth-child(n) > a:hover {
+        color: green;
+      }
+      #Navbar > ul > li:nth-child(n) > a:active {
+        color: green;
+      }
+
+      .mid {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .mid video {
+        height: 100%;
+        width: 100%;
+        pointer-events: none;
+        object-fit: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .navbar .btn {
+        font-weight: 600;
+        background: green;
+        padding: 0.4rem 1.4rem;
+        border-radius: 30px;
+      }
+
+      .navbar .btn:hover {
+        background: white;
+      }
+
+      .writeup {
+        position: relative;
+      }
+      .writeup p {
+        width: 55%;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        padding-bottom: 1rem;
+      }
+      .writeup a {
+        font-weight: 600;
+        background: green;
+        padding: 0.6rem 1.4rem;
+        border-radius: 30px;
+        text-decoration: none;
+      }
+      .writeup a:hover {
+        background: white;
+      }
+      .about {
+        background: black;
+      }
+
+      .about .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+      }
+
+      .about .text h6 {
+        font-weight: 600;
+        color: green;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+      }
+      .about .text h2 {
+        color: white;
+        font-weight: 600;
+        font-size: 2.7rem;
+      }
+
+      .about .text p {
+        color: white;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+      }
+
+      .about .text a {
+        font-weight: 600;
+        background: green;
+        padding: 0.6rem 1.4rem;
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+      }
+      .about .text a:hover {
+        color: black;
+      }
+
+      .saving .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+      }
+
+      .saving .text h6 {
+        font-weight: 600;
+        color: green;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+      }
+      .saving .text h2 {
+        color: black;
+        font-weight: 600;
+        font-size: 2.7rem;
+      }
+
+      .saving .text p {
+        color: black;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+      }
+
+      .saving .text a {
+        background: black;
+        font-weight: 600;
+        padding: 0.6rem 1.4rem;
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+      }
+
+      .saving .text a:hover {
+        color: green;
+      }
+
+      .page {
+        background-color: black;
+      }
+      .page .first {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 2rem 1.1rem;
+        border-radius: 7px;
+      }
+      .page .first h5 {
+        text-align: center;
+        font-weight: 600;
+        padding: 0.6rem 3rem;
+      }
+
+      .sigin .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+      }
+
+      .sigin .text h6 {
+        font-weight: 600;
+        color: green;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+      }
+      .sigin .text h2 {
+        color: black;
+        font-weight: 600;
+        font-size: 2.7rem;
+      }
+
+      .sigin .text p {
+        color: black;
+        font-size: 1.1rem;
+      }
+
+      .sigin .text a {
+        background: black;
+        font-weight: 600;
+        padding: 0.6rem 1.4rem;
+        border-radius: 30px;
+        text-decoration: none;
+        color: white;
+      }
+      .sigin .text a:hover {
+        color: green;
+      }
+      body
+        > footer
+        > ul.list-unstyled.list-inline.text-center.py-2
+        > li:nth-child(2)
+        > a {
+        font-weight: 600;
+        background: green;
+        padding: 0.6rem 1.4rem;
+        border-radius: 30px;
+        text-decoration: none;
+      }
+      body
+        > footer
+        > ul.list-unstyled.list-inline.text-center.py-2
+        > li:nth-child(2)
+        > a:hover {
+        background: white;
+      }
+      .first:hover {
+        transform: translateY(-1rem);
+        transform: 0.5s ease;
+      }
