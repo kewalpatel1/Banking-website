@@ -1,7 +1,7 @@
 # Banking-website
 HTML CSS Bootstrap
 
-
+<!-- 
 ![Screenshot (262)](https://user-images.githubusercontent.com/72654260/127354345-c93dc8d6-677b-4335-9cb2-aaa2744a2ecf.png)
 ![Screenshot (263)](https://user-images.githubusercontent.com/72654260/127354351-9ad0ab4e-644e-4060-8a36-e02d85063da8.png)
 ![Screenshot (264)](https://user-images.githubusercontent.com/72654260/127354354-0ddc2aba-76bd-45b0-ad38-b346639b772c.png)
@@ -10,3 +10,4 @@ HTML CSS Bootstrap
 ![Screenshot (267)](https://user-images.githubusercontent.com/72654260/127354352-dffb562b-ffab-41b0-b182-8b6ee1252652.png)
 
 
+ -->
